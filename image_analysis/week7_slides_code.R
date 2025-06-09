@@ -115,7 +115,7 @@ image_read(scenes_sdf[51]) |>
 browseURL("temp.jpg")
 
 # View colours
-df_col <- get_colors("temp.png", top_n = 24)
+df_col <- get_colors("temp.jpg", top_n = 24)
 plot_colors(df_col, sort = "size")
 
 # Color diversity
@@ -176,10 +176,10 @@ image_read("frames_sdf_no_white.jpg") |>
   image_write("temp2.jpg", format = "jpg")
 
 # View colours
-df_col1 <- get_colors("temp1.png", top_n = 24)
+df_col1 <- get_colors("temp1.jpg", top_n = 24)
 plot_colors(df_col1, sort = "size")
 
-df_col2 <- get_colors("temp2.png", top_n = 24)
+df_col2 <- get_colors("temp2.jpg", top_n = 24)
 plot_colors(df_col2, sort = "size")
 
 # Compare color diversity
