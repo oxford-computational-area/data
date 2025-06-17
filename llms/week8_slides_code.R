@@ -151,7 +151,7 @@ pixtral$chat(
 
 # Supply multiple
 pixtral$chat(
-  "Copmpare these two images.",
+  "Compare these two images.",
   content_image_file("sdf_014.jpg"),
   content_image_file("sdf_019.jpg"),
 )
